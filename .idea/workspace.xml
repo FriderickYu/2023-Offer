@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad81cbf-85d3-428d-a6a6-f33f00e413f5" name="Default Changelist" comment="" />
+    <list default="true" id="dad81cbf-85d3-428d-a6a6-f33f00e413f5" name="Default Changelist" comment="希尔排序完成">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/linear/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/linear/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure/linear/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/linear/test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +37,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -45,7 +52,7 @@
       <recent name="DataStructure.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.ShellSort">
     <configuration name="BSTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructure.test.BSTreeTest" />
       <module name="Java_DataStructure" />
@@ -85,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructure.test.RecursionDemo1" />
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.ShellSort" />
       <module name="Java_DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructure.test.*" />
+          <option name="PATTERN" value="algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.BSTreeTest" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.RecursionDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -155,8 +162,16 @@
       <workItem from="1660869937924" duration="1207000" />
       <workItem from="1661218838079" duration="2411000" />
       <workItem from="1661744151964" duration="15487000" />
-      <workItem from="1661832243277" duration="13300000" />
+      <workItem from="1661832243277" duration="20387000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1661860065761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661860065761</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,5 +187,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="希尔排序完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="希尔排序完成" />
   </component>
 </project>
