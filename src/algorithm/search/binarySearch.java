@@ -17,6 +17,7 @@ public class binarySearch {
         {
             return -1;
         }
+
         // 边界条件2
         if(arr[mid] == target)
         {
