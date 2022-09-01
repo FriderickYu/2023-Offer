@@ -2,6 +2,8 @@ package DataStructure.test;
 
 import DataStructure.linear.Stack;
 
+import java.util.LinkedList;
+
 public class StackTest {
     public static void main(String[] args){
         // 创建栈对象
