@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad81cbf-85d3-428d-a6a6-f33f00e413f5" name="Default Changelist" comment="modification">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/MergeSort.java" afterDir="false" />
+    <list default="true" id="dad81cbf-85d3-428d-a6a6-f33f00e413f5" name="Default Changelist" comment="merge sort (upTodown version)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/linear/HashMap_Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/linear/HashMap_Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/linear/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/linear/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/linear/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/linear/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/test/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/test/Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/test/StackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/test/StackTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/linear/HashMap_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/linear/HashMap_Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/linear/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/linear/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +173,7 @@
       <workItem from="1662617447808" duration="4387000" />
       <workItem from="1662710546599" duration="1594000" />
       <workItem from="1662796458676" duration="1341000" />
-      <workItem from="1662970204421" duration="4531000" />
+      <workItem from="1662970204421" duration="6438000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1661860065761</created>
@@ -217,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662033996956</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="merge sort (upTodown version)">
+      <created>1662978882040</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662978882040</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +241,7 @@
     <MESSAGE value="随机练习" />
     <MESSAGE value="栈内元素的出栈顺序判断" />
     <MESSAGE value="modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification" />
+    <MESSAGE value="merge sort (upTodown version)" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge sort (upTodown version)" />
   </component>
 </project>

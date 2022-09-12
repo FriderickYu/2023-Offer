@@ -32,6 +32,7 @@ public class MergeSort {
         for(i = 0; i < k; i ++){
             array[low + i] = tmp[i];
         }
+        tmp = null;
     }
 
     // 归并排序，从上往下
@@ -45,6 +46,31 @@ public class MergeSort {
         merge(array, low, middle, high);
     }
 
+    // 对数组a做若干次的合并，数组a的总长度为len,将其分为若干个长度为gap的子数组
+    public static void mergeGroups(int[] a, int len, int gap) {
+        int i;
+        int twolen = 2 * gap;    // 两个相邻的子数组的长度
+
+        // 将"每2个相邻的子数组" 进行合并排序。
+        for(i = 0; i+2*gap-1 < len; i+=(2*gap))
+            merge(a, i, i+gap-1, i+2*gap-1);
+
+        // 若 i+gap-1 < len-1，则剩余一个子数组没有配对。
+        // 将该子数组合并到已排序的数组中。
+        if ( i+gap-1 < len-1)
+            merge(a, i, i + gap - 1, len - 1);
+    }
+
+
+    // 归并排序，从下往上
+    public static void mergeSortDown2Up(int[] array){
+        if(array == null){
+            return;
+        }
+        for(int n = 1; n < array.length; n *= 2){
+            mergeGroups(array, array.length, n);
+        }
+    }
     public static void main(String[] args){
         int[] array = {80, 30, 60, 40, 20, 10, 50, 70};
         System.out.println("before sort");
