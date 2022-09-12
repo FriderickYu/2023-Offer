@@ -13,7 +13,6 @@ public class HashMap_Practice {
         map.put("Xiao Ming", s);
         // 通过key来访问value
         Student target = map.get("Xiao Ming");
-
         System.out.println(target == s); // 是一个对象
         System.out.println(target.score); // 99
         Student another = map.get("Bob"); // null
