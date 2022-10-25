@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad81cbf-85d3-428d-a6a6-f33f00e413f5" name="Default Changelist" comment="merge sort (upTodown version)">
+    <list default="true" id="dad81cbf-85d3-428d-a6a6-f33f00e413f5" name="Default Changelist" comment="merge sort (downToup version)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/linear/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_DataStructure/DataStructure/linear/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure/linear/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/linear/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <recent name="DataStructure.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.test">
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.sort.MergeSort" />
       <module name="Java_DataStructure" />
@@ -129,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.test" />
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.zhongxing" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.isPopOrder" />
@@ -173,7 +174,24 @@
       <workItem from="1662617447808" duration="4387000" />
       <workItem from="1662710546599" duration="1594000" />
       <workItem from="1662796458676" duration="1341000" />
-      <workItem from="1662970204421" duration="6438000" />
+      <workItem from="1662970204421" duration="7512000" />
+      <workItem from="1663066525955" duration="4307000" />
+      <workItem from="1663156512538" duration="2283000" />
+      <workItem from="1663664870359" duration="1806000" />
+      <workItem from="1663795143963" duration="1729000" />
+      <workItem from="1664104221534" duration="615000" />
+      <workItem from="1664113230968" duration="14000" />
+      <workItem from="1665618024148" duration="4004000" />
+      <workItem from="1665703041445" duration="16000" />
+      <workItem from="1665747248720" duration="624000" />
+      <workItem from="1665785815126" duration="375000" />
+      <workItem from="1665813778537" duration="678000" />
+      <workItem from="1665901034821" duration="4000" />
+      <workItem from="1665921175063" duration="609000" />
+      <workItem from="1665922915870" duration="16000" />
+      <workItem from="1666410693394" duration="4848000" />
+      <workItem from="1666495065419" duration="657000" />
+      <workItem from="1666667957818" duration="2530000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1661860065761</created>
@@ -217,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662978882040</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="merge sort (downToup version)">
+      <created>1662980893122</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662980893122</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +267,7 @@
     <MESSAGE value="栈内元素的出栈顺序判断" />
     <MESSAGE value="modification" />
     <MESSAGE value="merge sort (upTodown version)" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge sort (upTodown version)" />
+    <MESSAGE value="merge sort (downToup version)" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge sort (downToup version)" />
   </component>
 </project>

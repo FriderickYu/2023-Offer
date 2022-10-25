@@ -1,15 +1,17 @@
 package DataStructure.linear;
 
-import javax.swing.plaf.DesktopIconUI;
-import java.util.*;
-import java.util.Queue;
 
+import java.util.Arrays;
+import java.util.Comparator;
 
 class test {
-    public static void main(String[] args){
-
+    public static void main(String[] args) {
+        StringBuilder string = new StringBuilder("yutianqi");
+        string.reverse();
+        System.out.println(string);
 
     }
-
 }
+
+
 
